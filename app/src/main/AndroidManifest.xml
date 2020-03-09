@@ -46,7 +46,7 @@
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyDAXmX37IGugr8_e87IqKdm10H78Zp83Zk"/>
+            android:value="Map_Key"/>
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
@@ -131,7 +131,7 @@
             android:exported="true"
             android:permission="android.permission.SEND_SMS">
             <!--   android:permission="android.permission.RECEIVE_SMS"-->
-            <intent-filter android:priority="2147483647">
+            <intent-filter android:priority="">
                 <action android:name="Request_SENT" />
             </intent-filter>
         </receiver>
@@ -152,7 +152,7 @@
             android:exported="true"
             android:permission="android.permission.READ_SMS">
             <!--   android:permission="android.permission.RECEIVE_SMS"-->
-            <intent-filter android:priority="2147483647">
+            <intent-filter android:priority="">
                 <action android:name="android.provider.Telephony.SMS_RECEIVED" />
             </intent-filter>
         </receiver>
