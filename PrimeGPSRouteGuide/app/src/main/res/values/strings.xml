@@ -1,0 +1,230 @@
+<resources>
+    <string name="app_name">GPS Route Guide</string>
+
+
+    <!--Dummy IDS-->
+
+    <!--<string name="admob_bannar_id">ca-app-pub-3940256099942544/6300978111</string>-->
+    <!--<string name="ad_unit_id_native132">ca-app-pub-3940256099942544/6300978111</string>-->
+    <!--<string name="native_navigation_menu80">ca-app-pub-3940256099942544/6300978111</string>-->
+    <!--<string name="admob_interstitial_id">ca-app-pub-3940256099942544/1033173712</string>-->
+    <!--<string name="simple_banner_id">ca-app-pub-3940256099942544/6300978111</string>-->
+
+    <!--Original IDS-->
+
+    <string name="admob_interstitial_id">ca-app-pub-9956372986642703/9880877871</string>
+    <string name="simple_banner_id">ca-app-pub-9956372986642703/1776164688</string>
+    <!--<string name="native_navigation_menu80">ca-app-pub-9956372986642703/5450678274</string>-->
+
+    <string name="route_finder">Route Finder</string>
+    <string name="my_location">My Location</string>
+    <string name="your_fav_place">Your Favourite Places</string>
+    <string name="view_frnd_location">Friend Location</string>
+    <string name="discover">Discover</string>
+    <string name="share_my_location">Share Location</string>
+    <string name="explore">Explore</string>
+    <string name="feedback">Feedback </string>
+    <string name="feedbackhint">what is on your mind? </string>
+    <string name="subject">Subject </string>
+    <string name="feedback_dialog_hint">Your feedback means a lot to keep us going! \n Thank you!</string>
+    <string name="feedback_dialog">Feedback Gps Route Finder !</string>
+    <string name="featuredapps">Promoted Apps</string>
+    <string name="gpstracker">GPS Tracker</string>
+    <string name="gps2">Navigation</string>
+    <string name="record">Record</string>
+
+    <string name="trythisforfree">Try this for FREE</string>
+    <string name="speedometer">Speedometer</string>
+    <string name="selectmeter">Select Meter</string>
+    <string name="digitalmeter">Digital Meter</string>
+    <string name="analogmeter">Analog Meter</string>
+    <string name="selectunitoption">Select Unit option</string>
+    <string name="kilometerperhr_kmh">Kilo Meter Per Hr (km/h)</string>
+    <string name="milesperhr_mph">Miles Per Hr (mph)</string>
+    <string name="knot_knot">Knot (knot)</string>
+    <string name="savesetting">Save setting</string>
+
+    <string name="setting">Settings</string>
+    <string name="download">Download</string>
+
+    <string name="app1">Offline GPS route and Navigation</string>
+    <string name="app2">GPS Route Finder Maps</string>
+    <string name="app3">Mobile Location Tracker</string>
+    <string name="app4">Video Downloader For Facebook</string>
+    <string name="app5">Girl Voice Changer</string>
+    <string name="app6">Smart Manager-Battery Saver</string>
+    <string name="app7">Super VPN Proxy-VPN Free</string>
+    <string name="app8">Always on Display-AMOLED</string>
+
+
+    <string name="alert">Alert!</string>
+    <string name="tracker">This feature will download from Playstore</string>
+
+
+    <string name="tab_Navigation">Navigation</string>
+    <string name="tab_Nearby">Nearby</string>
+
+    <string name="eathmap">Earth Map</string>
+    <string name="drivingroute">Driving Route</string>
+
+
+    <string name="navigation_drawer_open">Open drawer</string>
+    <string name="navigation_drawer_close">Close drawer</string>
+
+    <!--    Permissions    -->
+    <string name="permission_rationale_location">Access to the location service is required to demonstrate the \'my location\' feature, which shows your current location on the map.</string>
+    <string name="location_permission_denied">This sample requires location permission to enable the \'my location\' layer. Please try again and grant access to use the location.\nIf the permission has been permanently denied, it can be enabled from the System Settings &gt; Apps &gt; \'Google Maps API Demos\'.</string>
+    <string name="permission_required_toast">Location permission is required for this demo.</string>
+
+
+    <!--near by strings-->
+    <string name="hospital">Hospital</string>
+    <string name="hotel">Hotels</string>
+    <string name="mosques">Mosques</string>
+    <string name="airport">Airports</string>
+    <string name="banks">Banks</string>
+    <string name="atms">ATMs</string>
+    <string name="postoffice">Post Office</string>
+    <string name="schools">Schools</string>
+    <string name="universty">University</string>
+    <string name="firestation">Fire Station</string>
+    <string name="policestation">Police Station</string>
+    <string name="parks">Parks</string>
+    <string name="bakery">Bakery</string>
+    <string name="cafe">Cafe</string>
+    <string name="servicestation">Service Station</string>
+    <string name="church">Church</string>
+    <string name="clothingstore">Clothing Store</string>
+    <string name="dentist">Dentist</string>
+    <string name="doctor">Doctor</string>
+    <string name="gasstation">Gas Station</string>
+    <string name="beautysalon">Beauty Salon</string>
+    <string name="jewelrystore">jewelry Store</string>
+    <string name="petstore">Pet Store</string>
+    <string name="pharmacy">Pharmacy</string>
+    <string name="shoestore">Shoe Store</string>
+    <string name="shoppingmall">Shopping Mall</string>
+    <string name="subwaystation">Subway Station</string>
+    <string name="zoo">Zoo</string>
+
+
+    <string name="favourite_places">Favourite Places</string>
+    <string name="view_frnd_loc">View Friend Location</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="confirm">Delete</string>
+    <string name="confirm_delte">Are you sure to delete favourite place ?</string>
+    <string name="dselectcontact">Select Contact</string>
+    <string name="selectfromcontact">Select from Contact</string>
+    <string name="selectfromCallLog">Select from Call Log</string>
+    <string name="selectfromMessages">Select from Messages</string>
+    <string name="selectmanually">Select Manually</string>
+    <string name="entermanually">Enter Contact</string>
+    <string name="send">Send</string>
+    <string name="phonenumberhint">Phone number</string>
+    <string name="clearall">Clear All</string>
+    <string name="locationreceivedon">Location Received on</string>
+    <string name="viewlocation">View Location</string>
+    <string name="routetofriend">Route to Friend</string>
+    <string name="share">Share</string>
+    <string name="addtofavourite">Add to Favourite</string>
+
+
+    <string name="poweredby">Powered by:</string>
+    <string name="prmestudioapps">Prime Studio Apps</string>
+
+
+    <string name="improve_ram">To improve your device performance, end the apps below.</string>
+    <string name="ramcleaner">Ram Booster</string>
+    <string name="ramusage">Ram Usage</string>
+    <string name="ramusagetips">Show notification when ram usage exceeds limit 70%</string>
+    <string name="weeklynotificationtips">Show notification on every Friday and Saturday.</string>
+    <string name="weeklynotification">Weekly Notifications</string>
+    <string name="ramnotification">Application consume power</string>
+    <string name="ramnotificationtip">Please close app to increase battery life!!!</string>
+    <string name="backgroundapps">Background Applications:</string>
+    <string name="ramoptimized">Ram Optimized Successfully!</string>
+    <string name="free">free</string>
+    <string name="systemandapps">System and Apps:</string>
+    <string name="total">Total:</string>
+    <string name="excludedreservedmemory">(excluded reserved memory)</string>
+    <string name="ok">OK</string>
+    <string name="endall">END ALL</string>
+    <string name="ram_cleaner">RAM Cleaner</string>
+
+
+    <string name="privacy_policy_title">Privacy Policy</string>
+    <string name="privacy_policy_text">
+\n
+ <b> Privacy Policy: </b>  \n
+\n
+Your privacy is important to Prime Studio Apps. Sometimes we need information to provide services that you request; this privacy statement applies to Prime Studio Apps and its products.\n
+\n
+ <b> What information we use and how we use it: </b>  \n
+\n
+\n <b> 1. Read phone status and identity </b>
+\n
+\nThis permission allows Prime Studio Apps to recognize an incoming call and to switch between the User System interfaces and call interface.
+\n <b> 2. Read your text messages (SMS or MMS) </b>
+\n
+\nWe do not save or upload your messages. We use this permission to read your text messages when you search messages in search bar or announce the sender name while some one send you a message.
+\n <b> 3. Take pictures and videos </b>
+\n
+\nWe use your device’s camera flashlight and require camera permission. Prime Studio Apps will not take photos and videos by itself and pass it on too any third party.
+\n <b> 4. Approximate location (network-based) </b>
+\n
+\nThis permission is used to display apps installed by anonymous surrounding users and to recommend popular apps based on users’ location in Prime Studio Apps Radar. This information is untraceable.
+\n <b> 5. Read your contacts </b>
+\n
+\nWE do not save or upload your contacts. Permission to access contact information is used when required.
+\n <b> 6. Read calendar events plus confidential information </b>
+\n
+\nThis information is used to remind you of your latest calendar events. We do not save or upload any of your calendar information.
+\n <b> 7. Find accounts on the devices </b>
+\n
+\Prime Studio Apps does not recognize or save your account information for any programs. we only detects whether users have a Google account linked with the device which helps us confirm the state of Google Service and provide users with appropriate application download and update methods.
+\n <b> 8. Read Google service configuration </b>
+\n
+\nThis information is used to acquire advertising ID. We provide users with better advertising service by using such anonymous ID.
+\n <b> 9. Change network connectivity </b>
+\n
+\nThis permission is used in settings and notification toolbar, in order to change network connectivity.
+\n <b> 10. Connect and disconnect from Wi-Fi </b>
+\n
+\nThis permission is used in settings and notification toolbar in order to connect and disconnect from Wi-Fi.
+\n <b> 11. Full network access </b>
+\n
+\nThis permission is used to access the device’s network for certain functions including receiving launcher update notifications.
+\n <b> 12. View network connections </b>
+\n
+\nThis permission is used in settings and notification toolbar, in order to view network connections.
+\n <b> 13. View Wi-Fi connections </b>
+\n
+\nThis permission is used in settings and notification toolbar, in order to view Wi-Fi connections.
+\n <b> 15. Close other apps </b>
+\n
+\nThis permission is used in Boost in order to turn off the back-end apps and make the phone run faster.
+\n <b> 16. Retrieve running apps </b>
+\n
+\nThis permission is used in Boost in order to view the running apps.
+\n <b> 17. Draw over other apps </b>
+\n
+\nThis permission allows us to free swipe tab to be displayed as a floating window on other apps.
+\n <b> 18. Control vibration </b>
+\n
+\nThis permission allows us to make the phone vibrate once after users set the device on vibrate, confirming the setting has been turned on.
+\n <b> 19. Measure app storage space: </b>
+\n
+\nThis permission is used to acquire the amount of storage space used by an application.
+\n <b> 20. Modify system settings: </b>
+\n
+\nThis permission is used in settings, in order to switch or adjust ringtone, vibration and brightness level of the screen.
+\n <b> 21. Read Home settings and shortcuts: </b>
+\n
+\nThis permission is used to acquire the user’s Home settings and shortcuts, in order to maintain user preferences.
+\n <b> 22. Device &amp; app history: </b>
+\n
+\nRetrieve running apps and we use this information to boost your Android phone effectively, clean your device\'s RAM and make your phone speed up in depth.
+\n\n <b> How we protect your information: </b>   We have implemented commercially reasonable technical and organizational measures to protect your personal information from accidental loss and from loss, misuse and unauthorized access, disclosure, alteration and destruction. However, please note that although we take reasonable measures to protect your information, no app, website, Internet transmission, computer system or wireless connection is completely secure.\n • Children\'s Privacy We are committed to protecting the privacy of children. We do not knowingly collect personal information from children under the age of 13. \n• Changes to the Privacy Policy Prime Studio Apps may, in its sole discretion, change this Privacy Policy from time to time, any and all changes will be reflected here and the date new versions are posted will be stated at the top of this Privacy Policy, so please review it periodically.</string>
+
+</resources>

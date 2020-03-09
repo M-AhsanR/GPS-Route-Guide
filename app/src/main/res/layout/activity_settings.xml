@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/adlayoutInSettings">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/headingTextMeterOption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorDialogBackground"
+        android:paddingBottom="@dimen/_3sdp"
+        android:paddingTop="@dimen/_20sdp">
+
+
+        <TextView
+            android:id="@+id/textDialogMeter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/selectmeter"
+            android:textAllCaps="true"
+            android:textColor="@color/colorButtonText"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/radioGroupTextMeterOption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/headingTextMeterOption"
+        android:background="@color/colorButtonText"
+        android:gravity="center"
+        android:paddingBottom="@dimen/_15sdp">
+
+        <RadioGroup
+            android:id="@+id/rgMeterOptions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_10sdp">
+
+            <RadioButton
+                android:id="@+id/rbDigitalMeter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/digitalmeter"
+                android:textColor="@color/colorRadioButtonUnchecked"
+                android:textSize="@dimen/_20sdp"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/rbAnalogMeter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15sp"
+                android:checked="false"
+                android:text="@string/analogmeter"
+                android:textColor="@color/colorRadioButtonUnchecked"
+                android:textSize="@dimen/_20sdp"
+                android:textStyle="bold" />
+
+        </RadioGroup>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/headingTextUnit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radioGroupTextMeterOption"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:background="@color/colorDialogBackground"
+        android:paddingBottom="@dimen/_3sdp"
+        android:paddingTop="@dimen/_20sdp">
+
+
+        <TextView
+            android:id="@+id/textDialogUnit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/selectunitoption"
+            android:textAllCaps="true"
+            android:textColor="@color/colorButtonText"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/radioGroupTextUnitOption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/headingTextUnit"
+        android:background="@color/colorButtonText"
+        android:gravity="center"
+        android:paddingBottom="@dimen/_15sdp">
+
+        <RadioGroup
+            android:id="@+id/rgUnits"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+
+            >
+
+            <RadioButton
+                android:id="@+id/rbKiloMeterPerHour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/kilometerperhr_kmh"
+                android:textColor="@color/colorRadioButtonUnchecked"
+                android:textSize="@dimen/_18sdp"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/rbMeterPerHour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:checked="false"
+                android:text="@string/milesperhr_mph"
+                android:textColor="@color/colorRadioButtonUnchecked"
+                android:textSize="@dimen/_18sdp"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/rbKnots"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:checked="false"
+                android:text="@string/knot_knot"
+                android:textColor="@color/colorRadioButtonUnchecked"
+                android:textSize="@dimen/_18sdp"
+                android:textStyle="bold" />
+        </RadioGroup>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radioGroupTextUnitOption">
+    <Button
+        android:id="@+id/btn_save_settings"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@drawable/btn_normal_clicked"
+        android:text="@string/savesetting"
+        android:textColor="@color/colorButtonText"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="@dimen/_20sdp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_30sdp"
+        android:layout_marginLeft="@dimen/_30sdp"/>
+
+    </LinearLayout>
+</RelativeLayout>
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/adlayoutInSettings"
+        android:visibility="gone"
+        android:layout_alignParentBottom="true">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:background="@color/colorButtonBackground"
+            android:layout_marginRight="15dp"/>
+        <com.google.android.gms.ads.NativeExpressAdView
+            android:id="@+id/adViewInSettings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            ads:adSize="360x80"
+            ads:adUnitId="@string/native_navigation_menu80">
+        </com.google.android.gms.ads.NativeExpressAdView>
+    </LinearLayout>
+
+</RelativeLayout>

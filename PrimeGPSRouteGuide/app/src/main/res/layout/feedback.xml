@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/view_feed_toolbar" />
+    </android.support.design.widget.AppBarLayout>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="false"
+        android:layout_marginTop="15dp"
+        android:hint="@string/subject"
+        android:padding="10dp"
+       android:focusable="true"
+        android:id="@+id/edtsubject"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="false"
+        android:layout_marginTop="15dp"
+        android:hint="@string/feedbackhint"
+        android:padding="10dp"
+        android:id="@+id/edtbody"
+
+        />
+
+
+
+    <RatingBar
+        android:theme="@style/RatingBar"
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:stepSize="1.0"
+        android:rating="0.0"
+        />
+</LinearLayout>

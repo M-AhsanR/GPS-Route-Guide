@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#16B7DD</color>
+    <color name="colorPrimaryDark">#149dbe</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="pressed">#33000000</color>
+    <color name="black">#000000</color>
+
+    <color name="yellow">#ffb545</color>
+    <color name="primary">#3c515c</color>
+    <color name="white">#FFFFFF</color>
+    <color name="scrim">#42000000</color>
+    <color name="backgd">#D2D3D5</color>
+    <color name="backgroundcolorgray">#cfcdcd</color>
+    <color name="blue">#16B7DD</color>
+    <color name="background">#d7d7d7</color>
+    <!--<color name="colorAccent">#FF4081</color>-->
+    <color name="Black">#000000</color>
+    <color name="colorLayoutText">#f7f7f7</color>
+    <color name="White">#FFFFFF</color>
+    <color name="red">#f50229</color>
+    <color name="splashcolor">#1B7CC2</color>
+
+    <color name="light_blue_500">#03A9F4</color>
+    <color name="cyan_500">#00BCD4</color>
+    <color name="teal_500">#009688</color>
+    <color name="green_500">#4CAF50</color>
+    <color name="light_green_500">#8BC34A</color>
+
+    <color name="tumblr_primary">#e9212121</color>
+    <color name="tumblr_orange">#F2992E</color>
+    <color name="tumblr_green">#56BC8A</color>
+    <color name="tumblr_white">#FFFFFF</color>
+    <color name="tumblr_grey">#748089</color>
+    <color name="tumblr_blue">#0F62AC</color>
+    <color name="tumblr_red">#f70109</color>
+
+    <color name="path_primary">#E62F17</color>
+    <color name="path_orange">#FF9500</color>
+    <color name="path_blue">#1774E6</color>
+    <color name="path_black">#403B36</color>
+    <color name="path_green">#5FB336</color>
+    <color name="path_purple">#49098A</color>
+    <color name="saffron">#F4B63E</color>
+    <color name="sienna">#EB6460</color>
+    <color name="green">#10b4a5</color>
+    <color name="purple">#7c57e4</color>
+    <color name="pink">#ff4284</color>
+    <color name="orange">#ff8c6a</color>
+
+
+
+
+    <color name="transparent">#a80e0e0e</color>
+
+
+    <color name="lannister">#ec4d4d</color>
+    <color name="stark">#656c75</color>
+    <color name="barratheon">#d7c137</color>
+    <color name="red_1">#C2185B</color>
+    <color name="red_2">#E91E63</color>
+    <color name="red_3">#F44336</color>
+    <color name="red_4">#FF5722</color>
+
+
+    <color name="colorAccentTransparent">#72ecff</color>
+    <color name="colorButtonBackground">#4e4c4c</color>
+    <color name="colorLayoutBackground">#1f1525</color>
+    <color name="colorButtonText">#f7f7f7</color>
+    <color name="colorDialogBackground">#0CB6D0</color>
+    <color name="colorTransparentBlackBackground">#a9575956</color>
+    <color name="colorFullTransparent">#00575956</color>
+    <color name="colorRadioButtonUnchecked">@color/colorPrimaryspeedometer</color>
+    <color name="colorRadioButtonChecked">@color/colorAccentspeedometer</color>
+    <color name="Red">#df2828</color>
+    <color name="Yellow">#f1e545</color>
+
+    <!-- //////////speedometer//////////-->
+    <color name="colorPrimaryspeedometer">#1A1A1A</color>
+    <color name="colorPrimaryDarkspeedometer">#242e30</color>
+    <color name="colorAccentspeedometer">#0CB6D0</color>
+</resources>

@@ -1,0 +1,820 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+   >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:layout_gravity="center_horizontal"
+        android:textSize="35sp"
+        android:visibility="gone"
+        android:textColor="@color/path_black"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical"
+        android:id="@+id/adlayout"
+        android:visibility="gone"
+        >
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/pressed"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"/>
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/simple_banner_id"
+            >
+        </com.google.android.gms.ads.AdView>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/pressed"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"/>
+    </LinearLayout>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  >
+
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+  >
+
+
+
+<!--/////////////////////first img row-->
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="10"
+    android:layout_marginTop="@dimen/_20sdp">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"/>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:gravity="center">
+        <ImageButton
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/Imgbtnroutefinder"
+            android:background="@drawable/a2"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:gravity="center">
+        <ImageButton
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/Imgbtndrivingroute"
+            android:background="@drawable/driving_route"/>
+
+
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:gravity="center">
+        <ImageButton
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/Imgbtnearthmap"
+            android:background="@drawable/earth_map"/>
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"/>
+</LinearLayout>
+<!--///////////////////////////////////////first img text row-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"/>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/route_finder"
+                android:gravity="center"
+                android:textSize="@dimen/_9sdp"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/drivingroute"
+                android:gravity="center"
+                android:textSize="@dimen/_9sdp"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/eathmap"
+                android:gravity="center"
+                android:textSize="@dimen/_9sdp"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"/>
+    </LinearLayout>
+    <!--//////////////////////////////////////2nd img row-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:weightSum="10">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:gravity="center">
+            <ImageButton
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:id="@+id/Imgbtnmylocation"
+                android:background="@drawable/a1"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:gravity="center">
+            <ImageButton
+                android:id="@+id/Imgbtnviewfriendlocation"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/a4" />
+
+
+
+</LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:gravity="center">
+
+                <ImageButton
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:id="@+id/Imgbtnyourfavplaces"
+                    android:background="@drawable/a3"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <!--//////////////////////////////////// 2nd img txt row-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"/>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/my_location"
+                android:gravity="center"
+                android:textSize="@dimen/_9sdp"
+                android:textStyle="bold"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Visited Places"
+                android:gravity="center"
+                android:textSize="@dimen/_9sdp"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3">
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/your_fav_place"
+                android:textSize="@dimen/_9sdp"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+        <!--//////////////////////////////////////2nd img row-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:weightSum="10">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:gravity="center">
+                <RelativeLayout
+
+                    android:layout_width="80dp"
+                    android:layout_height="80dp">
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/Imgbtndiscover"
+                        android:background="@drawable/discover"/>
+                    <TextView
+                        android:layout_width="@dimen/_18sdp"
+                        android:layout_height="wrap_content"
+                        android:text="Ad"
+                        android:layout_alignParentRight="true"
+                        android:layout_margin="@dimen/_5sdp"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textColor="#FFFFFF"
+                        android:background="#FFCC66"
+                        android:textSize="@dimen/_10sdp"
+                        />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:gravity="center">
+                <ImageButton
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:id="@+id/Imgbtnsharemylocation"
+                    android:background="@drawable/a6"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:gravity="center">
+
+                <ImageButton
+
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:id="@+id/Imgbtnfeedback"
+                    android:background="@drawable/feedback"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <!--//////////////////////////////////// 2nd img txt row-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"/>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/discover"
+                    android:gravity="center"
+                    android:textSize="@dimen/_9sdp"
+                    android:textStyle="bold"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/share_my_location"
+                    android:gravity="center"
+                    android:textSize="@dimen/_9sdp"
+                    android:textStyle="bold"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/feedback"
+                    android:gravity="center"
+                    android:textSize="@dimen/_9sdp"
+                    android:textStyle="bold"
+                    />
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="10">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5" />
+
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:orientation="vertical"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:gravity="center">
+
+
+                <ImageButton
+                    android:id="@+id/Imgbtnprivacypolicy"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/privacy_plicy" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/privacy_policy_title"
+                    android:gravity="center"
+                    android:textSize="@dimen/_9sdp"
+                    android:textStyle="bold"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1sdp"
+            android:background="@color/background"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:layout_marginLeft="@dimen/_25sdp"
+            android:layout_marginRight="@dimen/_25sdp"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sponsored Ad"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:paddingBottom="@dimen/_5sdp"
+            android:paddingTop="@dimen/_5sdp"
+            android:paddingLeft="@dimen/_15sdp"
+            android:paddingRight="@dimen/_15sdp"
+            android:textSize="@dimen/_18sdp"
+            android:background="@drawable/rounded_background"
+            android:layout_marginTop="@dimen/_20sdp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:weightSum="10">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:gravity="center">
+
+
+                <RelativeLayout
+
+                    android:layout_width="80dp"
+                    android:layout_height="80dp">
+                    <ImageButton
+                        android:id="@+id/Imgbtnspeedometer"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:background="@drawable/speedometer" />
+                    <TextView
+                        android:layout_width="@dimen/_18sdp"
+                        android:layout_height="wrap_content"
+                        android:text="Ad"
+                        android:layout_alignParentRight="true"
+                        android:layout_margin="@dimen/_5sdp"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textColor="#FFFFFF"
+                        android:background="#FFCC66"
+                        android:textSize="@dimen/_10sdp"
+                        />
+
+                </RelativeLayout>
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:gravity="center">
+
+
+                <RelativeLayout
+
+                    android:layout_width="80dp"
+                    android:layout_height="80dp">
+                    <ImageButton
+                        android:id="@+id/Imgbtngps2"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:background="@drawable/plate_gps_2" />
+                    <TextView
+                        android:layout_width="@dimen/_18sdp"
+                        android:layout_height="wrap_content"
+                        android:text="Ad"
+                        android:layout_alignParentRight="true"
+                        android:layout_margin="@dimen/_5sdp"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textColor="#FFFFFF"
+                        android:background="#FFCC66"
+                        android:textSize="@dimen/_10sdp"
+                        />
+
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:orientation="vertical"
+
+                android:gravity="center">
+
+
+                <RelativeLayout
+
+                    android:layout_width="80dp"
+                    android:layout_height="80dp">
+                    <ImageButton
+                        android:id="@+id/Imgbtntracker"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:background="@drawable/gpstracker" />
+                    <TextView
+                        android:layout_width="@dimen/_18sdp"
+                        android:layout_height="wrap_content"
+                        android:text="Ad"
+                        android:layout_alignParentRight="true"
+                        android:layout_margin="@dimen/_5sdp"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textColor="#FFFFFF"
+                        android:background="#FFCC66"
+                        android:textSize="@dimen/_10sdp"
+                        />
+
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <!--//////////////////////////////////// 2nd img txt row-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"/>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/speedometer"
+                    android:gravity="center"
+                    android:textSize="@dimen/_9sdp"
+                    android:textStyle="bold"
+                    />
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/gps2"
+                    android:gravity="center"
+                    android:textSize="@dimen/_9sdp"
+                    android:textStyle="bold"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/gpstracker"
+                    android:gravity="center"
+                    android:textSize="@dimen/_9sdp"
+                    android:textStyle="bold"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:weightSum="10">
+
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:gravity="center">
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:gravity="center">
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:gravity="center">
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <!--//////////////////////////////////// 2nd img txt row-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"/>
+
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3">
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/pressed"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"/>
+
+
+
+
+
+
+        <!--//////////////////////////////////// 3rd img txt row-->
+
+
+
+        <!--//////////////////////////////////// 3rd img txt row-->
+
+</LinearLayout>
+
+
+
+
+</ScrollView>
+<!--<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false"
+    android:clipToPadding="true"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginBottom="100dp"
+    android:layout_marginLeft="15dp"
+    >
+      <android.support.design.widget.FloatingActionButton
+                android:id="@+id/myFAB"
+          android:layout_alignParentBottom="true"
+          android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/fab_margin_right"
+                android:src="@android:drawable/btn_star_big_off"
+                app:elevation="4dp"
+          android:layout_marginBottom="100dp"/>
+            <com.prime.studio.apps.route.finder.map.FanMenuButtons
+                android:background="#CCFFFFFF"
+                android:id="@+id/myFABSubmenu1"
+                android:layout_alignBaseline="@+id/myFAB"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@android:color/white"
+                android:paddingRight="@dimen/fab_submenu_margin_right"
+                android:paddingBottom="@dimen/fab_submenu_margin_bottom"
+                android:textSize="14sp"
+                app:fanMenuLabels="@array/fan_labels"
+                app:fanButtonColors="@array/button_colors"
+                app:fanLeftDrawable="@array/button_icons"
+                app:fanRememberMovedPosition="true"
+                app:fanMinBounceBackAngle="-30"
+                app:fanMaxBounceBackAngle="50"
+                android:visibility="invisible"
+                app:elevation="4dp" />
+    </RelativeLayout>-->
+<!--<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/adlayout"
+    android:visibility="gone"
+    android:layout_alignParentBottom="true">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/pressed"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"/>
+    <com.google.android.gms.ads.NativeExpressAdView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        ads:adSize="360x80"
+        ads:adUnitId="@string/native_navigation_menu"
+        >
+    </com.google.android.gms.ads.NativeExpressAdView>
+</LinearLayout>-->
+
+
+    </LinearLayout>

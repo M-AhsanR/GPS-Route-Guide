@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/PrimeGPSRouteGuide.iml" filepath="$PROJECT_DIR$/PrimeGPSRouteGuide.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jzzappsmarketlibrary/jzzappsmarketlibrary.iml" filepath="$PROJECT_DIR$/jzzappsmarketlibrary/jzzappsmarketlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/skittles/skittles.iml" filepath="$PROJECT_DIR$/skittles/skittles.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>Prime Studio Apps</h1>
+<br>
+<h1>Privacy Policy:</h1>
+
+<br>
+<p>Your privacy is important to Prime Studio Apps. Sometimes we need information to provide services that you request; this privacy statement applies to Prime Studio Apps and its products.
+
+</p>
+<br>
+<h2>If you are resident in the EU, EEA , Switzerland OR From Any Part OF The World</h2>
+<br>
+<h3>SUMMARY</h3>
+<br>
+We process Your profile data (name, phone number etc.) and information about  your device , IP address and location to provide, improve, analyze and personalize the Services for You. We have enhanced our privacy center to provide You with more ability to access and control Your data.
+
+Subject always to obtaining your prior consent, we may:
+
+provide your information to third parties (such as Google and advertising networks) to serve more relevant advertisements or special offers and promotions to You
+
+We do not:
+
+store or share any personal information of contacts from Your address book or
+provide reverse number look up of contacts from Your address book.
+<br><br>
+<h3>PERSONALIZE OUR ADVERTISING AND COMMUNICATIONS.</h3>
+<br>
+Subject to the choices You make upon registration and in Your settings at any time, we may use the information collected, as set out above, to provide You with location and interest based advertising, marketing messaging, information and services. We may also use the collected information to measure the performance of our advertising and marketing services. Furthermore, we may contact You for verification purposes or with information pertaining to the Services or special offers, e.g. newsletter e-mails, SMS and similar notifications.
+<br><br>
+<h3>Cookies</h3>
+<br>
+Cookies are very important. Websites use them mainly to check the status of user's orders on their website. They do not identify users, only their computers. These cookies allow Us to manage the state of the order and can provide special offers to the customers. When you access the Service, We collect certain technical information in order to (I) analyze the usage of our sites and services; (ii) provide a more personalized experience; and (iii) manage advertising. We and service providers acting on our behalf, such as Google Analytics, use Log Files and tracking technologies to collect and analyze certain types of technical information, including cookies, IP addresses, device type, device identifiers, browser types, browser language, referring and exit pages, and URLs, platform type, the number of clicks, domain names, landing pages, pages viewed and the order of those pages, the amount of time spent on particular pages, game state and the date and time of activity on our websites or games, and other similar information. In some cases, we will associate this information with your user ID number for our internal use.
+<br><br>
+<h3>Your cookie options</h3>
+<br>
+Most browsers allow you to control cookies through their settings preferences. However, if you limit the ability of websites to set cookies, you may limit your user experience as it may stop you from saving customized settings like login information and other personalized preferences. Please note that opting out will not remove advertising from the pages you visit; it will mean that the ads you see may not be matched to your interests.
+<br><br>
+<h3>DISCLOSURE OF PERSONAL INFORMATION</h3>
+<br>
+In addition to the sharing and disclosure of personal information WE may disclose personal information if we believe such action is necessary to:
+
+1: comply with the law, or legal process served on us;
+2: protect and defend our rights and the enforcement of our agreements; or
+3: protect the security and safety of Users or members of the public or other aspects of public importance, provided, of course, that such disclosure is lawful.
+<br><br>
+ <h3>INFORMATION SECURITY AND TRANSFER OF PERSONAL INFORMATION TO OTHER COUNTRIES:</h3>
+ <br>
+  Prime Studio Apps may use cloud based services and subcontract storage or processing of Your information to third parties located in countries other than Your home country in order to provide the Services, including e.g. the USA. Information collected within the Europemay, for example, be transferred to and processed in a country outside of Europe, which may not provide the same level of protection for personal data as within Europe. We adopted a legal mechanism for the international transfer of data to a third party located in a country outside Europe. We take all reasonable precautions to protect personal information from misuse, loss and unauthorized access. Prime Studio Apps has implemented physical, electronic, and procedural safeguards in order to protect the information, including that the information if we collect will be stored on secured servers and protected by secured networks to which access is limited to a few authorized employees and personnel. However, no method of transmission over the Internet or method of electronic storage is 100% secure.
+
+
+
+<br><br>
+<h1>Other information we use and how we use it:</h1>
+
+<br>
+
+<p>
+
+<br>
+<h3>1. Read phone status and identity</h3><br>
+This permission allows Prime Studio Apps to recognize an incoming call and to switch between the User System interfaces and call interface.
+<br>
+<br><h3>2. Read your text messages (SMS or MMS)</h3><br>
+We do not save or upload your messages. We use this permission to read your text messages when you search messages in search bar or announce the sender name while some one send you a message.
+<br><br><h3>3. Take pictures and videos</h3><br>
+We use your device�s camera flashlight and require camera permission. Prime Studio Apps will not take photos and videos by itself and pass it on too any third party.
+<br><br><h3>4. Approximate location (network-based)</h3><br>
+This permission is used to display apps installed by anonymous surrounding users and to recommend popular apps based on users� location in Prime Studio Apps Radar. This information is untraceable.
+<br><br><h3>5. Read your contacts</h3><br>
+WE do not save or upload your contacts. Permission to access contact information is used when required.
+<br><br><h3>6. Read calendar events plus confidential information</h3><br>
+This information is used to remind you of your latest calendar events. We do not save or upload any of your calendar information.
+<br><br><h3>7. Find accounts on the devices</h3><br>
+Prime Studio Apps does not recognize or save your account information for any programs. we only detects whether users have a Google account linked with the device which helps us confirm the state of Google Service and provide users with appropriate application download and update methods.
+<br><br><h3>8. Read Google service configuration</h3><br>
+This information is used to acquire advertising ID. We provide users with better advertising service by using such anonymous ID.
+<br><br><h3>9. Change network connectivity</h3><br>
+This permission is used in settings and notification toolbar, in order to change network connectivity.
+<br><br><h3>10. Connect and disconnect from Wi-Fi</h3><br>
+This permission is used in settings and notification toolbar in order to connect and disconnect from Wi-Fi.
+<br><br><h3>11. Full network access</h3><br>
+This permission is used to access the device�s network for certain functions including receiving launcher update notifications.
+<br><br><h3>12. View network connections</h3><br>
+This permission is used in settings and notification toolbar, in order to view network connections.
+<br><br><h3>13. View Wi-Fi connections</h3><br>
+This permission is used in settings and notification toolbar, in order to view Wi-Fi connections.
+<br><br><h3>14. Access Bluetooth settings</h3><br>
+This permission is used in settings, in order to turn on and off the Bluetooth.
+<br><br><h3>15. Close other apps</h3><br>
+This permission is used in Boost in order to turn off the back-end apps and make the phone run faster.
+<br><br><h3>16. Retrieve running apps</h3><br>
+This permission is used in Boost in order to view the running apps.
+<br><br><h3>17. Draw over other apps</h3><br>
+This permission allows us to free swipe tab to be displayed as a floating window on other apps.
+<br><br><h3>18. Control vibration</h3><br>
+This permission allows us to make the phone vibrate once after users set the device on vibrate, confirming the setting has been turned on.
+<br><br><h3>19. Measure app storage space:</h3><br>
+This permission is used to acquire the amount of storage space used by an application.
+<br><br><h3>20. Modify system settings:</h3><br>
+This permission is used in settings, in order to switch or adjust ringtone, vibration and brightness level of the screen.
+<br><br><h3>21. Read Home settings and shortcuts:</h3><br>
+This permission is used to acquire the user�s Home settings and shortcuts, in order to maintain user preferences.
+<br><br><h3>22. Device & app history:</h3><br>
+Retrieve running apps and we use this information to boost your Android phone effectively, clean your device's RAM and make your phone speed up in depth.
+
+
+
+<br><br>
+<h4>How we protect your information:
+We have implemented commercially reasonable technical and organizational measures to protect your personal information from accidental loss and from loss, misuse and unauthorized access, disclosure, alteration and destruction. However, please note that although we take reasonable measures to protect your information, no app, website, Internet transmission, computer system or wireless connection is completely secure.
+� Children's Privacy
+We are committed to protecting the privacy of children. We do not knowingly collect personal information from children under the age of 13.
+� Changes to the Privacy Policy
+Prime Studio Apps may, in its sole discretion, change this Privacy Policy from time to time, any and all changes will be reflected here and the date new versions are posted will be stated at the top of this Privacy Policy, so please review it periodically.</h4>
+</P>
+
+</body>
+</html>

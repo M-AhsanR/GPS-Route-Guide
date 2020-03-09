@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snow.skittles.SkittleContainer
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/recycler_view_width"
+    android:layout_height="match_parent"
+    android:id="@+id/skittle_container"
+    tools:background="#ff0000"
+    android:layout_gravity="end|bottom"
+    android:baselineAligned="false"/>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    >
+
+    <RelativeLayout
+    android:layout_width="@dimen/_250sdp"
+    android:layout_height="@dimen/_220sdp"
+    android:orientation="vertical"
+        android:layout_centerInParent="true"
+
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back_round"
+        android:orientation="vertical"
+
+        >
+
+
+        <ImageView
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:src="@drawable/speedmeter"
+            android:layout_marginTop="@dimen/_25sdp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Speed-O-Meter"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_13sdp"
+            android:layout_margin="@dimen/_10sdp"
+            android:gravity="center"/>
+        <View
+            android:layout_width="@dimen/_120sdp"
+            android:layout_height="1dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+
+            android:layout_gravity="center"
+            android:background="@color/tumblr_orange"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This feature will be download from PlayStore"
+            android:textColor="@color/black"
+           android:textSize="@dimen/_10sdp"
+            android:layout_margin="@dimen/_8sdp"
+            android:paddingLeft="@dimen/_15sdp"
+            android:paddingRight="@dimen/_15sdp"
+            android:gravity="center"/>
+
+
+
+
+        <TextView
+            android:layout_width="@dimen/_140sdp"
+            android:layout_height="wrap_content"
+            android:text="@string/trythisforfree"
+            android:id="@+id/mOK"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:paddingBottom="@dimen/_5sdp"
+            android:paddingTop="@dimen/_5sdp"
+            android:paddingLeft="@dimen/_15sdp"
+            android:paddingRight="@dimen/_15sdp"
+            android:textSize="@dimen/_15sdp"
+            android:background="@drawable/shadow"
+            android:layout_marginTop="@dimen/_20sdp"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+</RelativeLayout>

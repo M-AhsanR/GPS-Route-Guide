@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    >
+
+    <RelativeLayout
+    android:layout_width="@dimen/_250sdp"
+    android:layout_height="@dimen/_270sdp"
+    android:orientation="vertical"
+        android:layout_centerInParent="true"
+
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/share_loc_bg"
+        android:orientation="vertical"
+
+        >
+
+
+        <ImageView
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:src="@drawable/share_loc"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter Contact"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_13sdp"
+            android:layout_margin="@dimen/_10sdp"
+            android:gravity="center"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/phonenumberhint"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="5dp"
+            android:paddingLeft="15dp"
+            android:inputType="phone"
+            android:id="@+id/edtnumber"
+            />
+
+
+
+
+        <TextView
+            android:layout_width="@dimen/_140sdp"
+            android:layout_height="wrap_content"
+            android:text="Send"
+            android:id="@+id/btnsend"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:paddingBottom="@dimen/_5sdp"
+            android:paddingTop="@dimen/_5sdp"
+            android:paddingLeft="@dimen/_15sdp"
+            android:paddingRight="@dimen/_15sdp"
+            android:textSize="@dimen/_15sdp"
+            android:background="@drawable/shadow"
+            android:layout_marginTop="@dimen/_20sdp"/>
+        <TextView
+            android:layout_width="@dimen/_140sdp"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:id="@+id/btncancel"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="@color/light_blue_500"
+            android:paddingBottom="@dimen/_5sdp"
+            android:paddingTop="@dimen/_5sdp"
+            android:paddingLeft="@dimen/_15sdp"
+            android:paddingRight="@dimen/_15sdp"
+            android:textSize="@dimen/_15sdp"
+            android:background="@drawable/shadow_white"
+            android:layout_marginTop="@dimen/_20sdp"/>
+    </LinearLayout>
+
+
+</RelativeLayout>
+</RelativeLayout>

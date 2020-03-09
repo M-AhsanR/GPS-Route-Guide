@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+   >
+
+    <item
+        android:id="@+id/mSetting"
+        android:title=""
+        android:icon="@drawable/settings"
+        app:showAsAction="always"
+
+        />
+
+</menu>

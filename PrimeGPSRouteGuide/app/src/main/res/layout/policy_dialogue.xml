@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/_280sdp"
+    android:layout_height="@dimen/_350sdp"
+    android:orientation="vertical"
+    android:background="@drawable/policy_dialogue_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_marginLeft="@dimen/_10sdp">
+
+        <ImageView
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:src="@drawable/splash_main_icon"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+            <TextView
+                android:id="@+id/d_text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="GPS Route Guide"
+                android:textColor="#2d2d2d"
+                android:textSize="@dimen/_14sdp"
+                android:layout_marginLeft="@dimen/_5sdp"/>
+            <TextView
+                android:id="@+id/d_text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Live Earth Map, Live Street view"
+                android:textColor="#2d2d2d"
+                android:textSize="@dimen/_10sdp"
+                android:layout_marginLeft="@dimen/_5sdp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/d_text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PRIVACY POLICY"
+        android:textColor="#2d2d2d"
+        android:textSize="@dimen/_13sdp"
+        android:gravity="left"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_10sdp"/>
+    <ScrollView
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="@dimen/_200sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:paddingRight="@dimen/_12sdp"
+        android:scrollbarThumbVertical="@color/colorPrimary"
+        android:scrollbarSize="2dp"
+        android:paddingVertical="@dimen/_5sdp"
+        >
+        <TextView
+            android:id="@+id/policy_dialogue_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PRIVACY POLICY"
+            android:textColor="#2d2d2d"
+            android:textSize="@dimen/_10sdp"
+            android:gravity="left"
+            />
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btn_privacy_dialogue_ok"
+        android:layout_width="@dimen/_75sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:text="OK"
+        android:textColor="#ffffff"
+        android:background="@drawable/allow_btn_background"
+        android:layout_gravity="center"
+        android:layout_marginVertical="@dimen/_10sdp"/>
+
+</LinearLayout>
