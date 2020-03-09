@@ -9,10 +9,6 @@
     <!--<string name="ad_unit_id_native132">ca-app-pub-3940256099942544/6300978111</string>-->
      <!--<string name="native_navigation_menu80">ca-app-pub-3940256099942544/6300978111</string>-->
 
-
-     <string name="admob_interstitial_id">ca-app-pub-9956372986642703/9880877871</string>
-    <string name="native_navigation_menu80">ca-app-pub-9956372986642703/5450678274</string>
-
     <string name="route_finder">Route Finder</string>
     <string name="my_location">My Location</string>
     <string name="your_fav_place">Favourite Places</string>
